@@ -1,0 +1,9 @@
+[submodule "DomRock"]
+	path = DomRock
+	url = https://github.com/TechForce-ADS/Back-DomRock.git
+[submodule "Front-DomRock"]
+	path = Front-DomRock
+	url = https://github.com/TechForce-ADS/Front-DomRock.git
+[submodule "DB-DomRock"]
+	path = DB-DomRock
+	url = https://github.com/TechForce-ADS/DB-DomRock.git

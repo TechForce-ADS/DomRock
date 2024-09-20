@@ -30,6 +30,7 @@ Este repositório é dedicado ao desenvolvimento da API para o 6º semestre, em 
 - <a href ="#backlog-do-produto"> Backlog do Produto </a>
 - <a href ="#backlog-das-sprints"> Backlog das Sprints</a>
 - <a href ="#tecnologia-utilizadas"> Tecnologias Utilizadas </a>
+- <a href ="#padronização-de-commits"> Padronização de Commits </a>
 - <a href ="#sprints"> Sprints </a>
 
 
@@ -161,6 +162,14 @@ Requisitos Funcionais:
 | 8    | Baixa      | Criação de uma interface: Desenvolver uma interface simples para que os representantes de marca possam consultar as informações. | 1      | 8                  | 4                     |
 
 ## Tecnologias Utilizadas 
+## Padronização de Commits
+Padronização dos commits: < Sprint X> < tipo>: <descrição breve da tarefa>
+
+- < Sprint X>: Refere-se ao número da sprint em que a mudança foi implementada. 
+- < tipo>: Indica o tipo de mudança realizada. 
+- < descrição>: Uma breve descrição da mudança realizada. 
+
+ Exemplo: < Sprint I> < fix>: <Correção de bugs>
 
 ## Sprints
 

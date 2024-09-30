@@ -9,4 +9,4 @@
 	url = https://github.com/TechForce-ADS/DB-DomRock.git
 [submodule "Back-DomRock"]
 	path = Back-DomRock
-	url = https://github.com/TechForce-ADS/Back-DomRock/tree/a85b5e028a0765c5a784886be1debbda39d27380
+	url = https://github.com/TechForce-ADS/Back-DomRock

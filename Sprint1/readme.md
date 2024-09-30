@@ -8,8 +8,7 @@
 | 2    | Alta       | Como um representante da marca, eu quero que o sistema realize a limpeza de dados, eliminando duplicatas e corrigindo valores ausentes, para que eu tenha dados confiáveis para análise.                                   | 1      | 34          | RF1                               |
 | 3    | Alta       | Como um representante da marca, eu quero que o sistema converta os reviews pré-processados em embeddings, para facilitar a recuperação de informações relevantes.                                                             | 1      | 8          | RF2                               |
 | 4    | Média       | Como um representante da marca, eu quero visualizar a média de avaliação geral do produto solicitado para que eu possa ter uma visão clara do desempenho dos consumidores sobre a marca.                                  | 1      | 5          | RF6, RF4                          |
-| 5    | Alta       | Como um representante da marca, eu quero identificar os produtos com as melhores e piores médias de avaliação para que eu possa direcionar ações de melhoria e destaque para os produtos.                                | 1      | 3          | RF6, RF4                          |
-| 6  | Alta       | Como um representante da marca, eu quero que o sistema classifique os produtos com base em sentimentos extraídos dos reviews, para que eu possa entender melhor as motivações dos consumidores.                           | 1      | 8          | RF6                               |
+| 5  | Alta       | Como um representante da marca, eu quero que o sistema classifique os produtos com base em sentimentos extraídos dos reviews, para que eu possa entender melhor as motivações dos consumidores.                           | 1      | 8          | RF6                               |
 
 ## 📌 DOR - Definition of Ready
 
@@ -39,13 +38,8 @@ Critérios de Aceitação:
 - CA2: O sistema deve buscar as avaliações do produto solicitado e calcular a média corretamente.
 - CA3: A resposta deve ser apresentada em linguagem natural, indicando a média de avaliação do produto.
 
-#### US5: Como um representante da marca, eu quero identificar os produtos com as melhores e piores médias de avaliação para que eu possa direcionar ações de melhoria e destaque para os produtos.
-Critérios de Aceitação:
-- CA1: O sistema deve entender perguntas sobre a identificação de produtos com melhores e piores médias de avaliação.
-- CA2: O sistema deve calcular as médias de avaliação de todos os produtos disponíveis.
-- CA3: A resposta deve apresentar os produtos com as melhores e piores médias de forma clara em linguagem natural.
-  
-#### US6: Como um representante da marca, eu quero que o sistema classifique os produtos com base em sentimentos extraídos dos reviews, para que eu possa entender melhor as motivações dos consumidores."
+
+#### US5: Como um representante da marca, eu quero que o sistema classifique os produtos com base em sentimentos extraídos dos reviews, para que eu possa entender melhor as motivações dos consumidores."
 Critérios de Aceitação:
 - CA1: Identificar produtos com maior e menor número de recomendações  
 - CA2: Deve apresentar as razões por trás das recomendações de forma clara 
@@ -58,3 +52,8 @@ Nessa entrega, usamos para a construção do chatbot com IA os dados do seguinte
 
 
 #### 🖥️ Entrega
+
+
+
+https://github.com/user-attachments/assets/63a6931d-52fb-498a-b389-35fac659be10
+

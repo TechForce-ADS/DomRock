@@ -33,7 +33,7 @@ Este repositório é dedicado ao desenvolvimento da API para o 6º semestre, em 
         <td>SCRUM TEAM</td>
   <tr>
         <td> Debora Taira</td>
-        <td> Italo Bonilha </td>
+        <td> Ítalo Bonilha </td>
         <td> Brener Freire </td>
         <td> Francisco Quirino </td>
         <td> Gabriel Angelis</td>

@@ -125,43 +125,40 @@ Abaixo estão os conhecimentos aplicados durante o nosso semestre:
     
  ## :white_check_mark: Requisitos  
 ### :clipboard: Requisitos Funcionais (RF)
-#### RF1: Coleta e Processamento de Dados:
-- O sistema deve coletar dados de reviews de produtos da base pública mencionada;
-- O sistema deve realizar a limpeza de dados, eliminando duplicatas e corrigindo valores ausentes;
-- O sistema deve realizar o pré-processamento dos reviews, extraindo e estruturando as informações para análise posterior.
+#### RF1: Perguntas sobre detalhes dos produtos, (como qualidade, performance, eficiência etc.) 
+  - O sistema deve permitir que os representantes da marca façam perguntas sobre os produtos com base em reviews e notas gerais da base de dados B2W e forneça respostas em linguagem natural.
 
-#### RF2: Geração de Embeddings
-- Os reviews pré-processados devem ser convertidos em embeddings, utilizando técnicas de processamento de linguagem natural;
-- Os embeddings devem ser armazenados em um banco de vetores como ChromaDB ou FAISS para consulta eficiente.
+#### RF2: Estatística de avaliações de produtos alocados em rankigs ou tabela: 
+  - O sistema deve calcular médias de avaliações e gerar rankings ordenados para facilitar a comparação entre produtos da mesma categoria.
+
+#### RF3: Análise de sentimento dos produtos identificando se o produto tem suas reviews avaliadas em sua maioria como positivas neutras ou negativas: 
+  - O sistema deve classificar as reviews dos produtos em sentimentos (positivo, neutro, negativo) e gerar um resumo textual explicando a classificação.
+
+#### RF4: Análise de Padrões, Consulta de defeitos encontrados em um dado produto 
+  - O sistema deve identificar padrões nas reviews (palavras e frases-chave recorrentes) e associar termos relevantes para gerar um resumo dos problemas mais comuns. 
+
+#### RF5: Análise de consumo de produtos por característica demográfica (idade, sexo, região, por ex.) 
+  - O sistema deve correlacionar as avaliações com dados demográficos dos consumidores (idade, sexo, região) e gerar relatórios que expliquem as preferências de diferentes segmentos de público.
+
+ 
+
+### 🔨 Requisitos Não Funcionais (RNF)   
+
+#### RNF1: BD Vetorial ChromaDB, FAISS ou outro
+  - Utilizar ChromaDB para armazenar e consultar informações.
+
+#### RNF2: Integração com interface visual
+  - Integração entre o sistema de backend (processamento de dados, análise de sentimentos, rankings, etc.) e uma interface visual
   
-#### RF3: Engenharia de Prompt
-- Criar um agente que configure prompts otimizados para interação com LLM;
-- Utilizar RAG (Retrieval Augmented Generation) para melhorar a qualidade das respostas, combinando recuperação de informações e geração de respostas.
+ #### RNF3: Teste com modelos LLM de uso público do Huggingface
+  - O sistema deve ser testado com modelos LLM de uso público, como os disponibilizados no Huggingface.
+    
+ #### RNF3: Framework Langchain
+ - Implementar o framework Langchain para lidar com consultas em linguagem natural e análise de dados.
+   
+ #### RNF4: Vídeo-tutorial;
+- Incluir um vídeo-tutorial para guiar os usuários na utilização do sistema.
   
-#### RF4: Integração com Modelos LLM
-- O sistema deve integrar-se com modelos de linguagem (por exemplo, GPT-2 ou T5) para processar as perguntas dos usuários.
-- O sistema deve consultar o banco de vetores para recuperar informações relevantes e formular respostas adequadas.
-
-#### RF5: Interface de Chatbot
-- Criar uma interface de chatbot intuitiva e amigável para o usuário, utilizando Vue.js.
-- O design da interface deve incluir botões de navegação claros e um layout limpo e organizado, garantindo uma experiência agradável.
-
-#### RF6: Classificação de Produtos e Análise de Sentimentos
-- O sistema deve classificar os produtos com base em sentimentos extraídos dos reviews, categorizando-os como:
-     - Muito Bom (4-5)
-     - Neutro (3)
-     - Ruim (1-2)
-- A classificação deve ser apresentada de maneira clara, permitindo que os usuários priorizem produtos mais bem avaliados e entendam as motivações por trás das notas.
-
-
-### 🔨 Requisitos Não Funcionais (RNF)  
-#### RNF 1: Teste e Avaliação
-- O sistema deve permitir a realização de testes com diferentes modelos LLM e comparar suas respostas em termos de precisão e relevância;
-- O sistema deve coletar feedback dos usuários para implementar melhorias futuras no chatbot.
-  
-#### RNF 2: Vídeo Tutorial
-- O sistema deve incluir um vídeo tutorial que explique como usar a interface do chatbot, garantindo que os usuários tenham um suporte visual para maximizar a compreensão.
-
 ## :wrench: Metodologia  
 
   - Scrum
@@ -172,21 +169,19 @@ Abaixo estão os conhecimentos aplicados durante o nosso semestre:
 
 ## :page_with_curl: Backlog do Produto
 
-| Rank | Prioridade | User Story                                                                                                                                                                                                                 | Sprint | Estimativa | Requisitos Relacionados          |
+| Rank | Prioridade | User Story       | Sprint | Estimativa | Requisitos Relacionados          |
 |------|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|------------|----------------------------------|
-| 1    | Alta       | Como um representante da marca, eu quero que o sistema colete dados de reviews de produtos da base da B2W, para garantir que as informações sejam atualizadas e precisas.                                                 | 1      | 8          | RF1                              |
-| 2    | Alta       | Como um representante da marca, eu quero que o sistema realize a limpeza de dados, eliminando duplicatas e corrigindo valores ausentes, para que eu tenha dados confiáveis para análise.                                   | 1      | 34          | RF1                               |
-| 3    | Alta       | Como um representante da marca, eu quero que o sistema converta os reviews pré-processados em embeddings, para facilitar a recuperação de informações relevantes.                                                             | 1      | 8          | RF2                               |
-| 4    | Média       | Como um representante da marca, eu quero visualizar a média de avaliação geral do produto solicitado para que eu possa ter uma visão clara do desempenho dos consumidores sobre a marca.                                  | 1      | 5          | RF6, RF4                          |
-| 5  | Alta       | Como um representante da marca, eu quero que o sistema classifique os produtos com base em sentimentos extraídos dos reviews, para que eu possa entender melhor as motivações dos consumidores.                           | 1      | 8          | RF6                               |
-| 6    | Alta       | Como um representante da marca, eu quero identificar os produtos com as melhores e piores médias de avaliação para que eu possa direcionar ações de melhoria e destaque para os produtos.                                | 2      | 3          | RF6, RF4                          |
-| 7    | Média       | Como um representante da marca, eu quero saber quais produtos são mais e menos recomendados pelos consumidores para que eu possa entender os motivos por trás dessas avaliações e tomar decisões estratégicas.          | 2      | 34          | RF4, RF6                          |
-| 8    | Média       | Como um representante da marca, eu quero analisar os comentários mais frequentes sobre os produtos, para que eu possa identificar padrões problemáticos recorrentes e pontos fortes dos produtos.                          | 2      | 21          | RF1, RF4                          |
-| 9    | Baixa       | Como um representante da marca, eu quero entender a relação entre as avaliações e as características demográficas dos consumidores (idade, sexo, região) para que eu possa personalizar as campanhas de venda e desenvolvimento dos produtos. | 2      | 2          | RF4                               |
-| 10    | Baixa       | Como um representante da marca, eu quero que o sistema tenha uma interface de chatbot intuitiva e amigável, para que eu consiga interagir facilmente com a ferramenta.                                                      | 2      | 8          | RF5                               |
-| 11   | Baixa      | Como um representante da marca, eu quero um vídeo tutorial explicando como usar o chatbot, para que eu possa entender melhor a funcionalidade e utilizar a ferramenta de forma eficaz.                                    | 3      | 1         | RNF2                               |
-| 12   | Média      | Como um representante da marca, eu quero que o sistema permita a comparação entre diferentes modelos LLM em termos de precisão e relevância das respostas, para garantir a melhor experiência possível.                   | 3      | 21          | RNF1                               |
-
+| 1    | Alta       | Como um representante da marca, eu quero conseguir fazer perguntas sobre os produtos disponíveis na base de dados da B2W e, com base nas reviews e notas gerais, obter respostas em linguagem natural.                                                | 1      | 34          | RF1                              |
+| 2    | Alta       |Como um representante da marca, eu quero visualizar as médias de avaliação dos produtos disponíveis na base de dados da B2W e gerar rankings crescentes e decrescentes usando parâmetros como média geral, sentimentos, e atributos.                                   | 2      | 34         | RF2                              |
+| 3    | Alta       | Como um representante da marca, eu quero saber quais produtos são mais e menos recomendados, identificando os sentimentos das reviews (positivo, neutro, negativo), para entender melhor as motivações dos consumidores.                                                       | 2      | 22         | RF3                               |
+| 4    | Alta       | Como um representante da marca, eu quero poder identificar padrões nas reviews sobre os produtos a fim de encontrar problemas recorrentes.                           | 2      | 22          | RF4                          |
+| 5  | Média       | 	Como um representante da marca, eu quero entender a relação entre as avaliações e as características demográficas dos consumidores para poder personalizar minhas ações de vendas com base nas preferências e características de diferentes segmentos de público-alvo.                   | 2      | 22          | RF5                               |
+| 6    | Média       | Como desenvolvedor, eu quero utilizar o ChromaDB para armazenar e consultar informações dos produtos e suas avaliações, garantindo que o sistema seja eficiente e escalável.                        | 2      | 8          | RNF1                        |
+| 7    | Baixa       | 	Como um representante da marca, eu quero que o sistema tenha uma interface visual intuitiva e amigável, para que eu consiga interagir facilmente com os dados e análises realizadas.         | 3      | 12          | RNF2                        |
+| 8    | Média       | Como desenvolvedor, eu quero testar o sistema com modelos LLM de uso público, como os do Huggingface, para garantir que a análise de linguagem natural esteja precisa e funcionando corretamente.                      | 2      | 21          | RNF3                         |
+| 9    | Média       | Como desenvolvedor, eu quero implementar o framework Langchain para melhorar o processamento e a análise das consultas em linguagem natural, visando uma melhor experiência de usuário. | 2      | 8         | RNF4                               |
+| 10    | Baixa       | Como um representante da marca, eu quero um vídeo tutorial explicando como usar o chatbot, para que eu possa entender melhor a funcionalidade e utilizar a ferramenta de forma eficaz.                                                      | 3      | 2          | RNF5                               |
+                                                                                                                                                                                                             
 
 
 ## :computer: Tecnologias Utilizadas 

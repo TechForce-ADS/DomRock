@@ -188,11 +188,11 @@ Abaixo estão os conhecimentos aplicados durante o nosso semestre:
 ## :computer: Tecnologias Utilizadas 
 Essas foram as tecnologias usadas no nosso projeto:
 
-<img src="https://github.com/TechForce-ADS/imagens/blob/main/1.png" width="800px"> 
+<img src="https://github.com/TechForce-ADS/imagens/blob/main/Tecnologias%20Utilizadas.png" width="800px"> 
 
   - Python
   - Jupyter Notebook
-  - Trello
+  - Jira
   - VS Code
   - GitHub
 

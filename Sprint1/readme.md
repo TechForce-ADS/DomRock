@@ -46,13 +46,16 @@ Critérios de Aceitação:
 - CA3: O sistema deve permitir perguntas sobre produtos recomendados, com respostas claras e concisas
   
 #### 🖼️ Wireframe
+![image](https://github.com/user-attachments/assets/d267efea-1ec7-4817-951d-249814abc229)
+
 
 #### :cd: Dados 
 Nessa entrega, usamos para a construção do chatbot com IA os dados do seguinte link: https://huggingface.co/datasets/ruanchaves/b2w-reviews01
 
 
 #### 🖥️ Entrega
-
+Link do vídeo no Youtube
+    https://youtu.be/upIXl6RibYk
 
 
 https://github.com/user-attachments/assets/63a6931d-52fb-498a-b389-35fac659be10

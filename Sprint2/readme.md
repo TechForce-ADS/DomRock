@@ -18,7 +18,14 @@
 | 5 | Análise de padrões e satisfação do cliente: Como um representante da marca eu quero poder identificar padrões nas reviews sobre os produtos a fim de encontrar problemas recorrentes.| O sistema deve ser capaz de identificar palavras chaves recorrentes nas reviews dos produtos e fazer associações de termos (produto e defeito por ex.) para gerar um texto indicando o padrão encontrado.|
 | 6 | Análise demográfica: Como um representante da marca eu quero entender a relação entre as avaliações e as características demográficas dos consumidores para poder personalizar minhas ações de vendas com base nas preferências e características de diferentes segmentos de público-alvo.| O sistema deve considerar os parâmetros demográficos (idade, sexo, região) requisitados a fim de gerar um gráfico que indique a relação demográfica x consumo do produto.|
   
-#### 🖼️ Wireframe
+#### 🖼️ Mockup
+- Tela de Introdução
+![Inicio](https://github.com/user-attachments/assets/e0e58ca9-26da-43ef-9dd6-57d18c4a8e1d)
+
+- Tela Home
+![Home](https://github.com/user-attachments/assets/7936bb55-7cf2-40f7-8032-2d60e3a0d3ec)
+![Pergunta](https://github.com/user-attachments/assets/e46be182-e437-4ad1-8f99-848e33063237)
+![Resposta](https://github.com/user-attachments/assets/fc75b8be-74ae-4f71-9f47-d351056343e5)
 
 #### :cd: Dados 
 Nessa entrega, usamos para a construção do chatbot com IA os dados do seguinte link: https://huggingface.co/datasets/ruanchaves/b2w-reviews01

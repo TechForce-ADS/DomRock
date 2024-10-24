@@ -93,7 +93,7 @@ Abaixo estão os conhecimentos aplicados durante o nosso semestre:
 ### 🔨 Requisitos Não Funcionais (RNF)   
 
 #### RNF1: BD Vetorial ChromaDB, FAISS ou outro
-  - Utilizar ChromaDB para armazenar e consultar informações.
+  - Utilização do FAISS para armazenar e consultar informações.
 
 #### RNF2: Integração com interface visual
   - Integração entre o sistema de backend (processamento de dados, análise de sentimentos, rankings, etc.) e uma interface visual

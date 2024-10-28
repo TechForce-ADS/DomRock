@@ -120,24 +120,60 @@ https://github.com/user-attachments/assets/63a6931d-52fb-498a-b389-35fac659be10
 <details>
   <summary><strong>2° Sprint</strong></summary>
 
-## 📌 DOR - Definition of Ready
--	1 - User Stories: As user storys devem estar claras e objetivas com critérios de aceitação bem definidos.
--	2 - Dados: Os dados precisam estar separados em grupos para que seja possível realizar o comparativo entre produtos.
--	3 - Ambiente:  O ambiente de todos os integrantes deve estar configurado para testes de aplicação (inserção de datasets e modelos a serem usados).
-
 
 ## 🎯 Sprint Backlog
 
-### 📄 User Stories e Critérios de Aceitação
+| Rank | Prioridade | User Story                                                                                                                                                                                                                                                                                                                 | Sprint | Pontos | Requisitos                               |
+|------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|--------|------------------------------------------|
+| 2    | Alta       | Desenvolvimento RAG/ FAISS: Como um representante da marca, eu quero conseguir fazer perguntas sobre os detalhes (qualidade, performance, eficiência, etc.) dos produtos disponíveis na base de dados da B2W e obter respostas em linguagem natural.                               | 2      | 34     | RF1, RNF1, RNF3, RNF4                    |
+| 3    | Alta       | Integração com a base de dados/ Criação de Ranking com base nas avaliações: Como um representante da marca, eu quero visualizar as médias de avaliação dos produtos disponíveis na base de dados da B2W e gerar rankings crescentes e decrescentes usando parâmetros como média geral, sentimentos e atributos.         | 2      | 34     | RF2, RF3, RNF1, RNF3, RNF4               |
+| 4    | Alta       | Integração com a base de dados/ Análise de sentimento das reviews: Como um representante da marca, eu quero saber quais produtos são mais e menos recomendados, identificando os sentimentos das reviews (positivo, neutro, negativo), para entender melhor as motivações dos consumidores.                               | 2      | 22     | RF3, RNF1, RNF3, RNF4                    |
+| 5    | Alta       | Análise de padrões e satisfação do cliente: Como um representante da marca, eu quero poder identificar padrões nas reviews sobre os produtos a fim de encontrar problemas recorrentes.                                                                                              | 2      | 22     | RF4, RNF1, RNF3, RNF4                    |
+| 6    | Média      | Análise demográfica: Como um representante da marca, eu quero entender a relação entre as avaliações e as características demográficas dos consumidores para personalizar minhas ações de vendas com base nas preferências e características de diferentes segmentos de público-alvo.  | 2      | 22     | RF5, RNF1, RNF3, RNF4                    |
 
-| Rank | User Story | Critério de Aceitação |
-|---|---|---|
-| 2 | Desenvolvimento RAG/ FAISS: Como um representante da marca eu quero conseguir fazer perguntas sobre os detalhes (qualidade, performance, eficiência etc) dos produtos disponíveis na base de dados da B2W.| O sistema deve ser capaz de identificar na review características técnicas dos produtos de acordo com o paramêtro requisitado e devolver em linguagem natural.| 
-| 3 | Integração com a base de dados/ Criação de Ranking com base nas avaliações: Como um representante da marca eu quero visualizar as médias de avaliação dos produtos disponíveis na base de dados da B2W e gerar rankings crescentes e decrescentes usando parâmetros como média geral, sentimentos, e atributos.|- O sistema deve gerar rankings com base nos parâmetros indicados <br>- O sistema deve separar os produtos em grupos e permitir o comparativo direto entre produtos de um mesmo grupo.| 
-| 4 | Integração com a base de dados/ Análise de sentimento das reviews: Como um representante da marca eu quero saber quais produtos são mais e menos recomendados, identificando os sentimentos das reviews (positivo, neutro, negativo), para entender melhor as motivações dos consumidores.| O sistema deve classificar as reviews dos produtos em sentimentos (positivo, neutro, negativo) e gerar um texto justificando a classificação.| 
-| 5 | Análise de padrões e satisfação do cliente: Como um representante da marca eu quero poder identificar padrões nas reviews sobre os produtos a fim de encontrar problemas recorrentes.| O sistema deve ser capaz de identificar palavras chaves recorrentes nas reviews dos produtos e fazer associações de termos (produto e defeito por ex.) para gerar um texto indicando o padrão encontrado.|
-| 6 | Análise demográfica: Como um representante da marca eu quero entender a relação entre as avaliações e as características demográficas dos consumidores para poder personalizar minhas ações de vendas com base nas preferências e características de diferentes segmentos de público-alvo.| O sistema deve considerar os parâmetros demográficos (idade, sexo, região) requisitados a fim de gerar um gráfico que indique a relação demográfica x consumo do produto.|
-  
+
+
+## 📌 DOR - Definition of Ready
+- **1° User Stories:** As user stories devem estar claras e objetivas, com critérios de aceitação bem definidos.
+- **2° Dados:** Os dados precisam estar separados em grupos para que seja possível realizar o comparativo entre produtos.
+- **3° Ambiente:** O ambiente de todos os integrantes deve estar configurado para testes de aplicação (inserção de datasets e modelos a serem usados).
+
+### 📄 User Stories e Critérios de Aceitação
+#### US2: Como um representante da marca, eu quero que o sistema me permita fazer perguntas sobre os detalhes (qualidade, performance, eficiência, etc.) dos produtos disponíveis na base de dados da B2W, para que eu possa obter informações precisas e detalhadas sobre eles.
+
+**Critérios de Aceitação:**
+- CA1: O sistema deve identificar características técnicas dos produtos mencionadas nas reviews de acordo com o parâmetro requisitado.
+- CA2: Deve apresentar as respostas em linguagem natural, com informações claras sobre o aspecto questionado.
+
+
+#### US3: Como um representante da marca, eu quero visualizar as médias de avaliação dos produtos e gerar rankings crescentes e decrescentes com base em parâmetros como média geral, sentimentos e atributos, para comparar a performance de diferentes produtos.
+
+**Critérios de Aceitação:**
+- CA1: O sistema deve gerar rankings com base nos parâmetros indicados (média geral, sentimentos, e atributos específicos).
+- CA2: Deve agrupar os produtos em categorias, permitindo o comparativo direto entre produtos de um mesmo grupo.
+
+
+#### US4: Como um representante da marca, eu quero que o sistema classifique os produtos com base nos sentimentos extraídos das reviews, para que eu possa entender melhor as motivações dos consumidores e identificar produtos mais e menos recomendados.
+
+**Critérios de Aceitação:**
+- CA1: O sistema deve classificar as reviews dos produtos em sentimentos (positivo, neutro, negativo).
+- CA2: Deve apresentar justificativas para cada classificação de sentimento em forma de texto claro e objetivo.
+
+
+#### US5: Como um representante da marca, eu quero identificar padrões recorrentes nas reviews sobre os produtos, para que eu possa detectar problemas frequentes e entender melhor as principais reclamações e sugestões dos clientes.
+
+**Critérios de Aceitação:**
+- CA1: O sistema deve identificar palavras-chave recorrentes nas reviews dos produtos.
+- CA2: Deve associar termos frequentes (como produto e defeito) e gerar um texto que indique os padrões identificados nas reviews.
+
+
+#### US6: Como um representante da marca, eu quero que o sistema me permita entender a relação entre as avaliações e as características demográficas dos consumidores, para que eu possa personalizar ações de vendas com base nas preferências e características de diferentes segmentos de público.
+
+**Critérios de Aceitação:**
+- CA1: O sistema deve considerar parâmetros demográficos (idade, sexo, região) ao gerar uma análise de comportamento de consumo.
+- CA2: Deve apresentar um gráfico que indique a relação entre os dados demográficos e o consumo do produto.
+
+
 #### 🖼️ Mockup
 - Tela de Introdução
   ![Introdução](https://github.com/user-attachments/assets/1652c455-b996-4614-8db9-53f36e6ddc0d)
@@ -154,6 +190,9 @@ https://github.com/user-attachments/assets/63a6931d-52fb-498a-b389-35fac659be10
 
 
 #### 🖥️ Entrega
+Link do vídeo da entrega no Youtube: 
+      https://youtu.be/yrFMmOVKGqA
+
 
 </details>
 
@@ -234,7 +273,7 @@ Abaixo estão os conhecimentos aplicados durante o nosso semestre:
 ## :computer: Tecnologias Utilizadas 
 Essas foram as tecnologias usadas no nosso projeto:
 
-<img src="https://github.com/TechForce-ADS/imagens/blob/main/Tecnologias%20Utilizadas.png" width="800px"> 
+<img src="" width="800px"> 
 
   - Python
   - Jupyter Notebook

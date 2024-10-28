@@ -273,14 +273,14 @@ Abaixo estão os conhecimentos aplicados durante o nosso semestre:
 ## :computer: Tecnologias Utilizadas 
 Essas foram as tecnologias usadas no nosso projeto:
 
-<img src="" width="800px"> 
+<img src="https://github.com/TechForce-ADS/imagens/blob/main/Tecnologias%20Utilizadas%20(1).png" width="800px"> 
 
   - Python
   - Jupyter Notebook
   - Jira
   - VS Code
   - GitHub
-
+  - Gemini IA
 
 ## :triangular_ruler: Padronização de Commits
 Padronização dos commits: < Sprint X> < tipo>: <descrição breve da tarefa>

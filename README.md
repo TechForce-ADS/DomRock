@@ -201,10 +201,11 @@ Link do vídeo da entrega no Youtube:
 
 ## 🎯 Backlog
 
-| Rank | Prioridade | User Story       | Sprint | Estimativa | Requisitos Relacionados          |
+| Rank | Prioridade | User Story | Sprint | Estimativa | Requisitos Relacionados |
 |------|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|------------|----------------------------------|
 | 7    | Baixa       | Usabilidade: Como um representante da marca e usuário final, eu quero que o sistema tenha uma interface visual intuitiva e amigável, para que eu consiga interagir facilmente com os dados e análises realizadas.         | 3      | 12          | RF1, RNF2                        |                            |
-| 8    | Baixa       | Tutorial para o usuário: Como um representante da marca eu quero um vídeo tutorial explicando como usar o chatbot, para que eu possa entender melhor a funcionalidade e utilizar a ferramenta de forma eficaz.                                                      | 3      | 2          | RNF5                               |
+| 8    | Baixa       | Tutorial para o usuário: Como um representante da marca e usuário final, eu quero um vídeo tutorial explicando como usar o chatbot, para que eu possa entender melhor a funcionalidade e utilizar a ferramenta de forma eficaz.                                                      | 3      | 2          | RNF5                               |
+| 9    | Baixa       | Usabilidade: Como um representante da marca e usário final, eu quero um sistema de login para que eu possa acessar o chat e ter todas as minhas interações salvas de forma segura disponíveis para visualização.                                                      | 3      | 12          | RF7                            |
 
 ## 🎯 Sprint Backlog
 
@@ -222,11 +223,10 @@ Link do vídeo da entrega no Youtube:
 
 
 ## 📌 DOR - Definition of Ready
-- **1° User Stories:** As user stories devem estar claras e objetivas, com critérios de aceitação bem definidos.
-- **2° Dados:** Os dados precisam estar separados em grupos para que seja possível realizar comparativo entre produtos.
-- **3° Ambiente:** O ambiente de todos os integrantes deve estar configurado para testes de aplicação (inserção de datasets e modelos a serem usados).
-- **4° Integração da Interface:** A interface frontend deve estar pronta para ser integrada ao projeto de forma que realize todas as funçoões de forma eficiente.
-- **5° Vídeo:** O Tutorial deve abranger todas as funcionalidades do projeto.
+- **1° User Stories:** As user stories devem estar claras e objetivas com critérios de aceitação bem definidos.
+- **2° Ambiente:** O ambiente de todos deve estar configurado para testes de aplicação (com inserção de datasets e modelos a serem usados).
+- **3° Integração da Interface:** A interface frontend deve estar pronta para ser integrada ao projeto de forma que realize todas as funçoões de forma eficiente.
+- **4° Vídeo:** O Tutorial deve abranger todas as funcionalidades do projeto.
 
 ### 📄 User Stories e Critérios de Aceitação
 #### US7: Usabilidade: Como um representante da marca e usuário final, eu quero que o sistema tenha uma interface visual intuitiva e amigável, para que eu consiga interagir facilmente com os dados e análises realizadas.

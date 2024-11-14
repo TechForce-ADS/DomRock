@@ -279,8 +279,9 @@ Abaixo estão os conhecimentos aplicados durante o nosso semestre:
 #### RF6: Recomendação de produtos baseado no interesse do usuário
   - O sistema deve permitir que os representantes da marca façam perguntas sobre os produtos presentes na base de dados da B2W e com base nas reviews e notas gerais gere recomendações de acordo com seu interesse.
 
+#### RF7: Segurança e registro
+  - O sistema deve conter um sistema que garanta a segurança e o armazenamento das interações do usuário.
  
-
 ### 🔨 Requisitos Não Funcionais (RNF)   
 
 #### RNF1: BD Vetorial FAISS

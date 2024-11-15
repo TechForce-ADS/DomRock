@@ -211,13 +211,15 @@ Link do vídeo da entrega no Youtube:
 
 | Rank | Task | Status | Tag |
 |------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
-| 1    | Integração com a interface. | Em Progresso | Frontend/ IA |
+| 1    | Criar endpoints para integração da IA com a interface. | Em Progresso | Frontend/ IA |
 | 2    | Modularização. | Em Progresso | IA |
 | 3    | Implementar, testar e comparar diferentes modelos de IA. | Em Progresso | IA |
 | 4    | Desenvolver Engenharia de Prompts.  | Em Progresso | IA |
-| 5    | Aperfeiçoamento e documentação de testes de temperatura. | Em Progresso | Testes/ IA |
-| 6    | ⁠Testes de controle para entrega final segura | Em Progresso.  | Testes/ IA |
-| 7    | Criação do video tutorial. | Em progresso | Usabilidade |
+| 5    | Aperfeiçoamento e documentação testes de temperatura. | Em Progresso | Testes/ IA |
+| 6    | ⁠Testes de controle para entrega final segura. | Em Progresso.  | Testes/ IA |
+| 7    | ⁠Botão copiar resposta do chat.  | Em Progresso | Frontend/ IA |
+| 8    | ⁠Função sugerir pergunta. | Em Progresso  | Frontend/ IA |
+| 9    | Criação do video tutorial. | Em progresso | Usabilidade |
 
 
 
@@ -225,7 +227,7 @@ Link do vídeo da entrega no Youtube:
 ## 📌 DOR - Definition of Ready
 - **1° User Stories:** As user stories devem estar claras e objetivas com critérios de aceitação bem definidos.
 - **2° Ambiente:** O ambiente de todos deve estar configurado para testes de aplicação (com inserção de datasets e modelos a serem usados).
-- **3° Integração da Interface:** A interface frontend deve estar pronta para ser integrada ao projeto de forma que realize todas as funçoões de forma eficiente.
+- **3° Integração da Interface:** A interface frontend deve estar pronta para ser integrada ao projeto de forma que realize todas as funções de forma eficiente.
 - **4° Vídeo:** O Tutorial deve abranger todas as funcionalidades do projeto.
 
 ### 📄 User Stories e Critérios de Aceitação
@@ -242,7 +244,8 @@ Link do vídeo da entrega no Youtube:
 - CA1: O Tutorial deve apresentar todas as funcionalidades do projeto em um video de até 3 minutos.
 - CA2: O vídeo deve estar disponível para visualização na plataforma YouTube.
 
-#### US9:  Usabilidade: Como um representante da marca e usário final, eu quero um sistema de login para que eu possa acessar o chat e ter todas as minhas interações salvas de forma segura disponíveis para visualização:**
+#### US9:  Usabilidade: Como um representante da marca e usário final, eu quero um sistema de login para que eu possa acessar o chat e ter todas as minhas interações salvas de forma segura disponíveis para visualização.
+**Critérios de Aceitação:**
 - CA1:  O Chat deve conter um sistema de login atrelado a um histórico de forma que garanta a segurança e o armazenamento para visualização das interações do usuário.
 - CA2: O Chat deve possuir uma área específica para ser possível o usuário selecionar suas interações para visualização.
 </details>

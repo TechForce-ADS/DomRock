@@ -211,15 +211,16 @@ Link do vídeo da entrega no Youtube:
 
 | Rank | Task | Status | Tag |
 |------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
-| 1    | Criar endpoints para integração da IA com a interface. | Em Progresso | Frontend/ IA |
-| 2    | Modularização. | Em Progresso | IA |
+| 1    | Criar endpoints para integração da IA com a interface. | Concluído | Frontend/ IA |
+| 2    | Modularização. | Concluído | IA |
 | 3    | Implementar, testar e comparar diferentes modelos de IA. | Em Progresso | IA |
-| 4    | Desenvolver Engenharia de Prompts.  | Em Progresso | IA |
-| 5    | Aperfeiçoamento e documentação testes de temperatura. | Em Progresso | Testes/ IA |
-| 6    | ⁠Testes de controle para entrega final segura. | Em Progresso.  | Testes/ IA |
-| 7    | ⁠Botão copiar resposta do chat.  | Em Progresso | Frontend/ IA |
-| 8    | ⁠Função sugerir pergunta. | Em Progresso  | Frontend/ IA |
-| 9    | Criação do video tutorial. | Em progresso | Usabilidade |
+| 4    | Desenvolver Engenharia de Prompts.  | Concluído | IA |
+| 5    | Aperfeiçoamento e documentação testes de temperatura. | Concluído | Testes/ IA |
+| 6    | ⁠Testes de controle para entrega final segura. | Concluído.  | Testes/ IA |
+| 7    | ⁠Botão copiar resposta do chat.  | Concluído | Frontend/ IA |
+| 8    | ⁠Função sugerir pergunta. | Concluído  | Frontend/ IA |
+| 9    | Função ler o conteúdo das perguntas e respostas. | Em Progresso  | Frontend/ IA |
+| 10   | Criação do video tutorial. | Em progresso | Usabilidade |
 
 
 
@@ -237,7 +238,8 @@ Link do vídeo da entrega no Youtube:
 - CA2: Ao lado direito devem existir caixas de texto com a pergunta do usuário e ao lado esquerdo as respostas do chat.
 - CA3: A interface deve seguir o modelo apresentado no mockup.
 - CA4: A interface deve possuir uma caixa de texto com um botão para enviar a pergunta na sua parte inferior.
-- CA5: A interface deve estar conectada ao backend de forma que ela tenha acesso aos dados.
+- CA5: A interface deve possuir um icone de áudio que leia as perguntas geradas e também as respostas.
+- CA6: A interface deve estar conectada ao backend de forma que ela tenha acesso aos dados.
 
 #### US8: Tutorial: para o usuário: Como um representante da marca eu quero um vídeo tutorial explicando como usar o chatbot, para que eu possa entender melhor a funcionalidade e utilizar a ferramenta de forma eficaz.
 **Critérios de Aceitação:**

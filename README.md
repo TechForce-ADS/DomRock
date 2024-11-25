@@ -219,8 +219,7 @@ Link do vídeo da entrega no Youtube:
 | 6    | ⁠Testes de controle para entrega final segura. | Concluído.  | Testes/ IA |
 | 7    | ⁠Botão copiar resposta do chat.  | Concluído | Frontend/ IA |
 | 8    | ⁠Função sugerir pergunta. | Concluído  | Frontend/ IA |
-| 9    | Função ler o conteúdo das perguntas e respostas. | Em Progresso  | Frontend/ IA |
-| 10   | Criação do video tutorial. | Concluído | Usabilidade |
+| 9    | Criação do video tutorial. | Concluído | Usabilidade |
 
 
 

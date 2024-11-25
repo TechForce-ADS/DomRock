@@ -34,10 +34,10 @@ Este repositório é dedicado ao desenvolvimento da API para o 6º semestre, em 
         <td> Debora Taira</td>
         <td> Ítalo Bonilha </td>
         <td> Francisco Quirino </td>
-        <td> Gabriel Angelis</td>
         <td> Isabel Reis </td>
         <td> Pedro Seraggi </td>
         <td> Renato Passos </td>
+        <td> Vitor Henrique </td>
     
 
 
@@ -249,6 +249,8 @@ Link do vídeo da entrega no Youtube:
 **Critérios de Aceitação:**
 - CA1:  O Chat deve conter um sistema de login atrelado a um histórico de forma que garanta a segurança e o armazenamento para visualização das interações do usuário.
 - CA2: O Chat deve possuir uma área específica para ser possível o usuário selecionar suas interações para visualização.
+
+Link do Vídeo no Youtube: https://youtu.be/qaA40EEHf4c
 </details>
 
 

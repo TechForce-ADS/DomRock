@@ -213,14 +213,14 @@ Link do vídeo da entrega no Youtube:
 |------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
 | 1    | Criar endpoints para integração da IA com a interface. | Concluído | Frontend/ IA |
 | 2    | Modularização. | Concluído | IA |
-| 3    | Implementar, testar e comparar diferentes modelos de IA. | Em Progresso | IA |
+| 3    | Implementar, testar e comparar diferentes modelos de IA. | Concluído | IA |
 | 4    | Desenvolver Engenharia de Prompts.  | Concluído | IA |
 | 5    | Aperfeiçoamento e documentação testes de temperatura. | Concluído | Testes/ IA |
 | 6    | ⁠Testes de controle para entrega final segura. | Concluído.  | Testes/ IA |
 | 7    | ⁠Botão copiar resposta do chat.  | Concluído | Frontend/ IA |
 | 8    | ⁠Função sugerir pergunta. | Concluído  | Frontend/ IA |
 | 9    | Função ler o conteúdo das perguntas e respostas. | Em Progresso  | Frontend/ IA |
-| 10   | Criação do video tutorial. | Em progresso | Usabilidade |
+| 10   | Criação do video tutorial. | Concluído | Usabilidade |
 
 
 

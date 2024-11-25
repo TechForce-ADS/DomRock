@@ -235,7 +235,7 @@ Link do vídeo da entrega no Youtube:
 #### US7: Usabilidade: Como um representante da marca e usuário final, eu quero que o sistema tenha uma interface visual intuitiva e amigável, para que eu consiga interagir facilmente com os dados e análises realizadas.
 **Critérios de Aceitação:**
 - CA1: A interface gráfica deve estar apresentada em uma única tela.
-- CA2: Ao lado direito devem existir caixas de texto com a pergunta do usuário e ao lado esquerdo as respostas do chat.
+- CA2: Ao lado esquedo devem existir caixas de texto com a pergunta do usuário e ao lado direito as respostas do chat.
 - CA3: A interface deve seguir o modelo apresentado no mockup.
 - CA4: A interface deve possuir uma caixa de texto com um botão para enviar a pergunta na sua parte inferior.
 - CA5: A interface deve possuir um icone de áudio que leia as perguntas geradas e também as respostas.

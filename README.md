@@ -205,7 +205,7 @@ Link do vídeo da entrega no Youtube:
 |------|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|------------|----------------------------------|
 | 7    | Baixa       | Usabilidade: Como um representante da marca e usuário final, eu quero que o sistema tenha uma interface visual intuitiva e amigável, para que eu consiga interagir facilmente com os dados e análises realizadas.         | 3      | 12          | RF1, RNF2                        |                            |
 | 8    | Baixa       | Tutorial para o usuário: Como um representante da marca e usuário final, eu quero um vídeo tutorial explicando como usar o chatbot, para que eu possa entender melhor a funcionalidade e utilizar a ferramenta de forma eficaz.                                                      | 3      | 2          | RNF5                               |
-| 9    | Baixa       | Usabilidade: Como um representante da marca e usário final, eu quero um sistema de login para que eu possa acessar o chat e ter todas as minhas interações salvas de forma segura disponíveis para visualização.                                                      | 3      | 12          | RF7                            |
+| 9    | Baixa       | Usabilidade: Como um representante da marca e usário final, eu quero um sistema de login para que eu possa acessar o chat e ter todas as minhas interações salvas de forma segura.                                                      | 3      | 12          | RF7                            |
 
 ## 🎯 Sprint Backlog
 
@@ -218,8 +218,9 @@ Link do vídeo da entrega no Youtube:
 | 5    | Aperfeiçoamento e documentação testes de temperatura. | Concluído | Testes/ IA |
 | 6    | ⁠Testes de controle para entrega final segura. | Concluído.  | Testes/ IA |
 | 7    | ⁠Botão copiar resposta do chat.  | Concluído | Frontend/ IA |
-| 8    | ⁠Função sugerir pergunta. | Concluído  | Frontend/ IA |
-| 9    | Criação do video tutorial. | Concluído | Usabilidade |
+| 8    | ⁠Botão editar mensagem enviada ao chat.  | Concluído | Frontend/ IA |
+| 9    | ⁠Função sugerir pergunta. | Concluído  | Frontend/ IA |
+| 10   | Criação do video tutorial. | Concluído | Usabilidade |
 
 
 
@@ -245,7 +246,7 @@ Link do vídeo da entrega no Youtube:
 - CA1: O Tutorial deve apresentar todas as funcionalidades do projeto em um video de até 3 minutos.
 - CA2: O vídeo deve estar disponível para visualização na plataforma YouTube.
 
-#### US9:  Usabilidade: Como um representante da marca e usário final, eu quero um sistema de login para que eu possa acessar o chat e ter todas as minhas interações salvas de forma segura disponíveis para visualização.
+#### US9:  Usabilidade: Como um representante da marca e usário final, eu quero um sistema de login para que eu possa acessar o chat e ter todas as minhas interações salvas de forma segura.
 **Critérios de Aceitação:**
 - CA1:  O Chat deve conter um sistema de login atrelado a um histórico de forma que garanta a segurança e o armazenamento para visualização das interações do usuário.
 - CA2: O Chat deve possuir uma área específica para ser possível o usuário selecionar suas interações para visualização.
@@ -328,7 +329,7 @@ Abaixo estão os conhecimentos aplicados durante o nosso semestre:
 | 6  | Média       | Análise demográfica: Como um representante da marca eu quero entender a relação entre as avaliações e as características demográficas dos consumidores para poder personalizar minhas ações de vendas com base nas preferências e características de diferentes segmentos de público-alvo.                   | 2      | 22          | RF5, RNF1, RNF3, RNF4                               |
 | 7    | Baixa       | Usabilidade: Como um representante da marca e usuário final, eu quero que o sistema tenha uma interface visual intuitiva e amigável, para que eu consiga interagir facilmente com os dados e análises realizadas.         | 3      | 12          | RF1, RNF2                        |                            |
 | 8    | Baixa       | Tutorial para o usuário: Como um representante da marca eu quero um vídeo tutorial explicando como usar o chatbot, para que eu possa entender melhor a funcionalidade e utilizar a ferramenta de forma eficaz.                                                      | 3      | 2          | RNF5                               |
-| 9    | Baixa       | Usabilidade: Como um representante da marca e usário final, eu quero um sistema de login para que eu possa acessar o chat e ter todas as minhas interações salvas de forma segura disponíveis para visualização.                                                      | 3      | 12          | RF7                            |
+| 9    | Baixa       | Usabilidade: Como um representante da marca e usário final, eu quero um sistema de login para que eu possa acessar o chat e ter todas as minhas interações salvas de forma segura.                                                      | 3      | 12          | RF7                            |
 
                                                                                                                                                                                                              
 
